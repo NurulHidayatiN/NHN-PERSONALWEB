@@ -1,0 +1,53 @@
+/*navbar*/
+
+.navbar-brand {
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.navbar a {
+  color: #208585 !important ;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  margin-right: 30px;
+  transition: color 0.4s ease-in;
+  font-weight: 500;
+}
+
+/*jumbotron*/
+.jumbotron {
+  background-image: url(imgbg.jpg);
+  background-size: cover;
+  height: 640px;
+  text-align: center;
+  position: relative;
+}
+
+.jumbotron .display-4 {
+  color: peru;
+  text-align: center;
+  font-weight: 200;
+  font-size: 62px;
+}
+
+.jumbotron .display-4 span {
+  font-weight: 500;
+}
+
+.jumbotron .lead {
+  color: peru;
+  text-align: center;
+  font-weight: 450;
+}
+
+.rounded-circle {
+  margin-top: 100px;
+}
+
+/*about*/
+
+.textabout {
+  color: #208585;
+}
